@@ -1,1 +1,5 @@
-export const schemaTypes = []
+import { produtoType } from "./produtoType";
+
+export const schemaTypes = [
+    produtoType
+]
