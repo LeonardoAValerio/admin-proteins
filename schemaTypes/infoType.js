@@ -15,11 +15,11 @@ export const infoTypes = defineType({
             type: 'string',
         }),
         defineField ({
-            name: 'Redes-sociais',
+            name: 'redesSocial',
             type: 'string',
         }),
         defineField ({
-            name: 'Link-maps',
+            name: 'linksMaps',
             type: 'string',
         }),
         defineField ({
