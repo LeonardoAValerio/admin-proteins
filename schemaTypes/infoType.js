@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export const infoTypes = defineType({
-    name: 'Informacoes da Empresa',
-    title: 'Informaçoes da empresa',
+    name: 'InformacoesDaEmpresa',
+    title: 'InformaçoesDaEmpresa',
     type: 'document',
 
     fields: [
