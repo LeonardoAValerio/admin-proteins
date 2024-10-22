@@ -8,23 +8,23 @@ export const infoTypes = defineType({
     fields: [
         defineField ({
             name: 'Localizacao',
-            type: 'String',
+            type: 'string',
         }),
         defineField ({
             name: 'Contatos',
-            type: 'String',
+            type: 'string',
         }),
         defineField ({
             name: 'Redes-sociais',
-            type: 'String',
+            type: 'string',
         }),
         defineField ({
             name: 'Link-maps',
-            type: 'String',
+            type: 'string',
         }),
         defineField ({
             name: 'Direitos',
-            type: 'String',
+            type: 'string',
         }),
     ]
 })
