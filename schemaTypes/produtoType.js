@@ -6,16 +6,16 @@ export const produtoType = defineType({
   type: 'document',
   fields: [
     defineField({
-        name: 'Titulo',
+        name: 'produto',
         type: 'string',
     }),
-        defineField({
-            name: 'Descricao',
-            type: 'string',
-        }),
-            defineField({
-                name: 'Imagem',
-                type: 'image',
-            }),
+    defineField({
+        name: 'Descricao',
+        type: 'string',
+    }),
+    defineField({
+        name: 'Imagem',
+        type: 'image',
+    }),
   ],
 })
